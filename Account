@@ -1,0 +1,39 @@
+
+package lab3;
+
+import java.util.ArrayList;
+
+/**
+ *
+ * @author Shree Hari
+ */
+public class Account 
+{
+    ArrayList<Transaction> tran = new ArrayList<Transaction>();
+    private double currentbalance = 0;
+    
+
+    public ArrayList<Transaction> getList() {
+        return tran;
+    }    
+
+    public double getCurrentbalance() {
+        return currentbalance;
+    }
+
+    public void setCurrentbalance(double currentbalance) {
+        this.currentbalance = currentbalance;
+    }
+
+    @Override
+    public String toString() {
+        return  tran + "        " + currentbalance + "\n";
+    }
+
+    public void PerformeTransaction()
+    {
+    
+        
+    }
+        
+}
