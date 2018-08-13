@@ -1,0 +1,40 @@
+package lab3;
+
+public class Transaction extends Account  
+{
+    private String discription; // instance variable called discription 
+    private double value;       // insatnce variable caalled value
+    
+ public Transaction(String discription, double value) 
+    {
+        this.discription = discription;
+        this.value = value;
+    }
+
+ public String getDiscription() 
+    {
+        return discription;
+    }
+
+ public void setDiscription(String discription) 
+    {
+        this.discription = discription;
+    }
+
+ public double getValue() 
+    { 
+        return value;
+    }
+
+ public void setValue(double value) 
+    {
+        this.value = value;
+    }
+
+ @Override
+ public String toString()
+    {
+        return "Transaction{" + "discription=" + discription + ", value=" + value + '}';
+    }
+ 
+}
