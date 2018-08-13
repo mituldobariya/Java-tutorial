@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package lab3;
+
+/**
+ *
+ * @author Shree Hari
+ */
+
+
+
+
+
+public class Lab3 {
+
+    public static void main(String[] args) 
+    {
+        Account acc = new Account();
+        Transaction tran1 = new Transaction("Withdraw", -500);
+        Transaction tran2 = new Transaction("Deposit", 500); 
+        Transaction tran3 = new Transaction("Deposit", 500); 
+        acc.tran.add(tran1);
+        acc.tran.add(tran2);
+        acc.tran.add(tran3);
+        System.out.println(acc.tran);
+                
+        
+    }
+
+}
