@@ -19,7 +19,7 @@ import javax.swing.border.EmptyBorder;
 /**
  * The WindowMap class is responsible for displaying a GUI window, checking user inputs, 
  * calculating all prime numbers in the given range, and displaying them.
- * @author Patrick D. Farley
+ * @author mitul
  */
 public class WindowMap 
 {
